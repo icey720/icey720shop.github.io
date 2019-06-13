@@ -1,0 +1,337 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+/*MY CODE --------------------------------------------------------------------------------------------------*/
+body {
+    background-color: white;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%
+    
+
+}
+
+.barcode {
+    font-family: 'Libre Barcode 39', cursive;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.title { 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    padding: 0px 0 20px 0;
+    font-weight: 900;
+    letter-spacing: 10px;
+    position: relative;
+    animation: text 1.5s 1;
+    color: black;
+    color: #000;
+    text-shadow:
+    -2px -2px 0 #fff,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000; 
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+@keyframes text {
+    10% {
+        color: #7eaed8;
+        opacity: .75;
+    }
+    
+    35% {
+        color: #7eaed8;
+    }
+}
+
+.link1, .link2, .link3 {
+    font-size: 30px;
+    padding: 6px 10px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 0 10px;
+}
+
+.links a {
+  position: relative;
+  color: #000;
+  text-decoration: underline;
+}
+
+
+
+
+.noanimation-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    padding: 0px 0 20px 0;
+    font-weight: 900;
+    letter-spacing: 10px;
+    position: relative;
+    color: black;
+    color: #000;
+    text-shadow:
+    -2px -2px 0 #fff,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000; 
+    text-transform: uppercase;
+    display: block;
+}
+
+
+.contact-description {
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+.contact-decsription a {
+    text-decoration: none;
+}
+
+.contact-twitterlink, .contact-emaillink {
+    color: red; 
+}
+
+.about-description {
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    
+}
+
+.about-specific-description {
+    color: blue;
+}
+
+.about-description-links {
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    
+}
+
+.about-description-links a {
+    color: red; 
+}
+
+.work-description {
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.work-links {
+    margin-top: 10px;
+    
+}
+
+.work-links a {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+    padding: 6px 10px;
+    position:relative;
+}
+
+.shopify-code {
+    margin: auto;
+    width: 15%;
+    
+}
+
+
+@media only screen and (min-width: 1025px) {
+    .title { 
+        
+        font-size: 60px;
+       
+    }
+
+    .barcode {
+        
+        font-size: 35px;
+        
+    }
+    
+    .link1, .link2, .link3 {
+        font-size: 35px;
+        display: inline;
+        
+    }
+    
+    .links a {
+        position: relative;
+        color: #000;
+        text-decoration: none;
+    }
+
+    .links a:hover {
+        color: #000;
+    }
+
+    .links a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        bottom: 3px;
+        left: 0;
+        background-color: #000;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .links a:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(.85);
+        transform: scaleX(.85);
+    }
+    
+    .noanimation-title {
+        font-size: 60px;
+    }
+    
+    .about-description {
+        width: 30%;
+        transform: translate(116%, 0%);
+    }
+
+}
+
+
+
